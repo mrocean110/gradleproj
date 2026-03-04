@@ -31,7 +31,7 @@ pipeline {
         stage('Run Application') {
             steps {
                 // Start the JAR application
-                sh 'gradle run'
+                sh 'gradle display'
             }
         }
 
